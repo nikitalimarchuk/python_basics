@@ -5,6 +5,7 @@ def my_gen():
             yield number
         previous = number
 
+
 gen = my_gen()
 items = []
 

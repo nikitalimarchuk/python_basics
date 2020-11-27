@@ -8,6 +8,6 @@ def factorial(n: int) -> Generator:
         yield result
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     for result in factorial(3):
         print(result)
